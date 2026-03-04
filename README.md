@@ -3,7 +3,7 @@
 Official Code Base for the ATHENA framework for neural representation
 analysis in deep neural networks.
 
-------------------------------------------------------------------------
+
 
 ## Overview
 
@@ -21,7 +21,7 @@ activations and analyze the structure of the resulting stimuli.
 ATHENA is intended for **computational neuroscience and deep learning
 interpretability research**.
 
-------------------------------------------------------------------------
+
 
 # Data Processing Flow
 
@@ -43,7 +43,7 @@ Receptive field mapping\
 ↓\
 Population / layer comparisons
 
-------------------------------------------------------------------------
+
 
 # Dataset Structure
 
@@ -57,7 +57,6 @@ ecoset_augmented/
 Some analyses require access to the full set of evolved stimuli images
 generated during experiments.
 
-------------------------------------------------------------------------
 
 # Code Structure
 
@@ -88,7 +87,7 @@ Utilities - ATHENAN_findCenterUnitIndexInActivation.m -
 ATHENAN_findLastNonLinearLayer.m -
 ATHENAN_extractNumericalValuesFromFilenames.m
 
-------------------------------------------------------------------------
+
 
 # Deep Neural Networks
 
@@ -104,7 +103,6 @@ may include:
 -   ResNet
 -   Custom CNN models
 
-------------------------------------------------------------------------
 
 # Stimulus Evolution
 
@@ -121,7 +119,6 @@ latent vector → generator → CNN → activation score → optimizer update
 
 Images evolve over generations until neuron activation is maximized.
 
-------------------------------------------------------------------------
 
 # Dual Generator Evolution
 
@@ -138,7 +135,7 @@ ATHENAN_DualThreadEvolution.m
 
 This allows comparison between different generative priors.
 
-------------------------------------------------------------------------
+
 
 # Receptive Field Analysis
 
@@ -156,7 +153,7 @@ Aperture probing
 
 These methods estimate where a CNN neuron is spatially sensitive.
 
-------------------------------------------------------------------------
+
 
 # Image Feature Statistics
 
@@ -185,7 +182,7 @@ Key functions include:
 These allow quantitative comparison between evolved stimuli and natural
 images.
 
-------------------------------------------------------------------------
+
 
 # Network Lesion Experiments
 
@@ -203,7 +200,7 @@ These experiments measure:
 -   neuron importance
 -   robustness of learned representations
 
-------------------------------------------------------------------------
+
 
 # Requirements
 
@@ -219,7 +216,7 @@ Optional:
 
 -   Parallel Computing Toolbox
 
-------------------------------------------------------------------------
+
 
 # Installation
 
@@ -235,7 +232,6 @@ Configure paths:
 
 ATHENAN_my_paths.m
 
-------------------------------------------------------------------------
 
 # Example Usage
 
@@ -249,24 +245,6 @@ Run receptive field analysis:
 
 ATHENA_AnalyzeReceptiveFields_main_script
 
-------------------------------------------------------------------------
 
-# Citation
 
-If you use this repository in academic work, please cite:
-
-ATHENA: Synthetic Stimulus Evolution and CNN Receptive Field Analysis
-Framework
-
-------------------------------------------------------------------------
-
-# License
-
-Specify license here.
-
-------------------------------------------------------------------------
-
-# Author
-
-ATHENA framework for neural representation and deep learning
-interpretability research.
+Written by Ahyan Maya
