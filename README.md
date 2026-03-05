@@ -204,8 +204,6 @@ These experiments measure:
 
 # Requirements
 
-MATLAB (R2021 or later recommended)
-
 Required toolboxes:
 
 -   Deep Learning Toolbox
@@ -218,19 +216,6 @@ Optional:
 
 
 
-# Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/ATHENA.git
-
-Add the repository to the MATLAB path:
-
-addpath(genpath('ATHENA'))
-
-Configure paths:
-
-ATHENAN_my_paths.m
 
 
 # Example Usage
@@ -247,4 +232,4 @@ ATHENA_AnalyzeReceptiveFields_main_script
 
 
 
-Written by Ahyan Maya
+
